@@ -1,0 +1,49 @@
+.menu {
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+
+.link {
+    color: rgb(182, 207, 184);
+    font-size: 25px;
+    padding: 25px;
+    text-decoration: none;
+}
+
+.header {
+    height: 1000px;
+    width: 1000px;
+    opacity: .75;
+}
+#intro {
+    text-align: center;
+    color: rgb(96, 136, 99);
+    font-size: 90px;
+}
+
+#intro2 {
+    text-align: center;
+    color:rgb(96, 136, 99);
+    font-size: 55px;
+}
+
+#html {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+}
+
+#css {
+    height: 100px;
+    width: 75px;
+    padding: 25px;
+}
+
+.contactform {
+    text-align: left;
+}
+
+#backtotop {
+    font-size: 15px;
+}
+
