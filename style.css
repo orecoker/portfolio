@@ -4,47 +4,143 @@
 }
 
 .link {
-    color: rgb(182, 207, 184);
+    color: black;
     font-size: 25px;
     padding: 25px;
-    text-decoration: none;
 }
 
 .header {
     height: 1000px;
     width: 1000px;
     opacity: .75;
-}
-#intro {
-    text-align: center;
-    color: rgb(96, 136, 99);
-    font-size: 90px;
+    margin: 0;
 }
 
-#intro2 {
+.intro {
+    font-size: 90px;
+    position: absolute;
+    left: 710px;
+    top: 300px;
+}
+
+.intro,
+.intro2 {
+    font-family: Cormorant Garamond;
+    color:black;
+}
+
+.intro2 {
+    font-size: 50px;
+    padding-top: 120px;
+    position: absolute;
+    left: 820px;
+    top: 300px;
+}
+
+#aboutme2 {
+    font-size: 27px
+}
+
+#headshot {
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+#aboutme,
+#aboutme2,
+#projects,
+.link,
+.skills,
+#message,
+.contactform
+#backtotop
+#submit
+#connect
+{
+    font-family: Cormorant Garamond;
     text-align: center;
-    color:rgb(96, 136, 99);
-    font-size: 55px;
+}
+
+#projects {
+    margin-top: -125px;
+    box-sizing: border-box;
+}
+
+.skills,
+#projects,
+#aboutme,
+#connect
+ {
+    font-size: 40px;
+}
+
+#reach {
+    font-size: 30px;
+}
+
+.contactform{
+    font-size: 25px;
+}
+
+/* make name/email on left and message on right with title centered */
+
+#message {
+    font-size: 30px
 }
 
 #html {
-    height: 100px;
-    width: 100px;
-    padding: 25px;
+    height: 150px;
+    width: 150px;
 }
 
 #css {
-    height: 100px;
-    width: 75px;
+    height: 150px;
+    width: 110px;
     padding: 25px;
 }
 
-.contactform {
-    text-align: left;
+#submit {
+    font-size: 30px
+    text-align: center;
+}
+
+#linkedin {
+    height: 50px;
+    width: 50px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    border: 0 none;
+}
+
+#instagram {
+    height: 50px;
+    width: 50px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    border: 0 none;
+}
+
+#mail {
+    height: 70px;
+    width: 80px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    border: 0 none;
+}
+
+.socialmedia {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 0 none;
+}
+
+a {
+    text-decoration: none;
 }
 
 #backtotop {
-    font-size: 15px;
+    font-size: 20px;
 }
-
-
