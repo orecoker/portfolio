@@ -115,9 +115,16 @@
     border: 0 none;
 }
 
+#github {
+    height: 70px;
+    width: 70px;
+    padding-left: 23px;
+    padding-bottom: 10px;
+    border: 0 none;
+}
 #instagram {
-    height: 50px;
-    width: 50px;
+    height: 49px;
+    width: 49px;
     padding-bottom: 20px;
     padding-left: 35px;
     border: 0 none;
@@ -144,3 +151,4 @@ a {
 #backtotop {
     font-size: 20px;
 }
+
